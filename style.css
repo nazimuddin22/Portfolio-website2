@@ -1,4 +1,126 @@
-h1{
-    background-color: red;
-    color:lime;
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100% !important;
+    
+}
+.main-header{
+    height:600px ;
+    background-image:url(img/header-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.half-width{
+    width: 40%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+
+}
+.half-width img{
+    width: 90%;
+}
+.half-width h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:#EC4F8E;
+    margin-top: 0;
+    padding-top: 0;
+}
+.half-width a{
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color:white;
+    background-color: #EC4F8E;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.second-header {
+    height:600px ;
+    background-image:url(img/biography-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.work-sample {
+    height:600px ;
+    background-image:url(img/latest-work-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bio{
+    margin-top: 100px;
+}
+.bio-img img{
+    width: 75%;
+}
+
+.work-sample{
+    width: auto;
+    height: 500px;
+    margin: 0;
+    padding: 20px;
+}
+.phot-glary{
+    width: 29%;
+    margin: 2%;
+    float: left;
+}
+.phot-glary img{
+    width: 100%;
+}
+.client-area{
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    background-image:url(img/footer-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.testomonial{
+    width: 50%;
+    margin: auto;
+}
+.client-area h1{
+    margin: 40px;
+    font-size: 30px;
+}
+.client-area h3{
+    font-weight:700 ;
+    margin:5px ;
+
+}
+.client-area h5{
+    font-weight: 400;
+    margin:0 ;
+    padding:0 ;
+
+}.client-area p{
+    font-weight: 500;
+    margin:50px ;
+
+}
+.email{
+    background-color: #EC4F8E;
+    margin: auto;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.email p{
+    padding: 0;
+    margin: 5px 0;
 }
